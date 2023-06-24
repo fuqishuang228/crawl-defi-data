@@ -1,8 +1,0 @@
-（1）爬虫需求：爬取https://coinmarketcap.com/exchanges/binance/网址中binance在ETH上的钱包地址
-（2）数据来源：
-
-（3）代码流程
-a.发送请求
-b.获取数据
-c.解析数据
-d.保存数据
