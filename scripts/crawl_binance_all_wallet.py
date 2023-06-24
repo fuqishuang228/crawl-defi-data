@@ -3,17 +3,17 @@ Crawl all wallet addresses of binance
 """
 
 import re
-import requests
 import json
+import requests
 from environ.constants import PRO,URL,HEADERS
-from environ.process.get_wallet_info import wallet_info,ETH_wallet
+from environ.process.get_wallet_info import wallet_info,wallet_info_on_eth
 
 
 if __name__ == "__main__":
     # Sends a GET request. Returns Response object
     req = requests.get(URL, headers=HEADERS, proxies=PRO)
 
-    # get data of req 
+    # get data of req
     html = req.text
 
     # get html json part of wallet
@@ -25,6 +25,5 @@ if __name__ == "__main__":
     # get all wallet addresses of binance
     binance_wallets=wallet_info(jiexi)
 
-    # get wallet on ETH 
-    eth_wallets=ETH_wallet(binance_wallets) 
-
+    # get wallet on ETH
+    eth_wallets=wallet_info_on_eth(binance_wallets)
