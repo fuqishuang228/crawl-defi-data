@@ -1,5 +1,5 @@
-# dex-asset-pricing
-Repository for the study of network risk factor in DEX
+# crawl-defi-data
+Repository for the study of crawling data on DeFi
 
 ## 
 Clone this repository
