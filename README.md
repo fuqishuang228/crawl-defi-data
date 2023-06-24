@@ -61,4 +61,8 @@ pip install -e ".[dev]"
 
 ## Question I met
 Q1：ProxyError: HTTPSConnectionPool(host='coinmarketcap.com', port=443): Max retries exceeded with url: /exchanges/binance/ (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))
+
 A1: pip install urllib3==1.25.11 -- reduce the version of urllib3
+
+Q2: locate context of Json
+A2： there is a useful tool called vscode-json,ctrl+alt+b
