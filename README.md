@@ -1,14 +1,14 @@
 # crawl-defi-data
+
 Repository for the study of crawling data on DeFi
 
-## 
-Clone this repository
+## Clone this repository
 
 ```bash
 git clone https://github.com/fuqishuang228/crawl-defi-data.git
 ```
 
-Navigate to the directory of the cloned repo
+## Navigate to the directory of the cloned repo
 
 ```bash
 cd crawl-defi-data
@@ -18,7 +18,7 @@ cd crawl-defi-data
 
 ### Give execute permission to your script and then run `setup_repo.sh`
 
-```
+```cmd
 chmod +x setup_repo.sh
 ./setup_repo.sh
 ```
@@ -35,7 +35,7 @@ python3 -m venv venv
 
 - Windows
 
-```
+```cmd
 python -m venv venv
 ```
 
@@ -49,21 +49,18 @@ python -m venv venv
 
 - Windows (in Command Prompt, NOT Powershell)
 
-```zsh
+```cmd
 venv\Scripts\activate.bat
 ```
 
 ## Install the project in editable mode
 
-```
+```cmd
 pip install -e ".[dev]"
 ```
-or 
 
-```
-pip install -e ".[dev]" -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
-```
 ## Question I met
+
 Q1：ProxyError: HTTPSConnectionPool(host='coinmarketcap.com', port=443): Max retries exceeded with url: /exchanges/binance/ (Caused by ProxyError('Unable to connect to proxy', FileNotFoundError(2, 'No such file or directory')))\
 A1: pip install urllib3==1.25.11 -- reduce the version of urllib3
 
