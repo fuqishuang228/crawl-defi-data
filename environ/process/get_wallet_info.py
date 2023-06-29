@@ -78,3 +78,7 @@ def wallet_info_on_eth(all_wallets: pd.DataFrame) -> pd.DataFrame:
     eth_wallet_df.to_csv(ETH_WALLETS, encoding="utf-8-sig")
 
     return eth_wallet_df
+
+
+if __name__ == "__main__":
+    pass
