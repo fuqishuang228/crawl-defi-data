@@ -5,13 +5,13 @@ Repository for the study of crawling data on DeFi
 Clone this repository
 
 ```bash
-git clone git@github.com:fuqishuang228/crawl-defi-data.git
+git clone https://github.com/fuqishuang228/crawl-defi-data.git
 ```
 
 Navigate to the directory of the cloned repo
 
 ```bash
-cd dex-asset-pricing
+cd crawl-defi-data
 ```
 
 ## Set up the repo
